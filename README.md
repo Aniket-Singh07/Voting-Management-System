@@ -1,27 +1,61 @@
-🗳️ Smart Voting Management System (Java & MySQL)
+🗳️ Smart Voting Management System (Advanced)
 
-Yeh mera Final Year Project hai. Yeh ek Desktop Application hai jo Secure Voting karwata hai.
+A full-featured Desktop Application for secure digital voting, developed using Java (Swing) and MySQL. This version includes advanced features like Voter Registration, Candidate Symbols, and Election Report Generation.
 
-🚀 Features (Khasiyat)
+🌟 New Features
 
-Admin Panel: Naye candidates add kar sakte hain aur live result dekh sakte hain.
+🆕 Voter Registration: New users can sign up directly from the app.
 
-Voter Panel: Secure login karke vote daal sakte hain.
+🎨 Party Symbols: Candidates have visual symbols (🍎, 🏏, 🔫, etc.) for better identification.
 
-Security: Ek voter sirf ek hi baar vote de sakta hai.
+📄 Export Report: Admins can download the final election result as a .txt file.
 
-🛠️ Kaise Chalayein (How to Run)
+🏆 Live Winner: Admin dashboard automatically highlights the leading candidate.
 
-Upar green "Code" button se Download ZIP karo.
+🔒 Security: Strict "One Person, One Vote" policy.
 
-Folder extract karo.
+🛠️ Technology Stack
 
-Apne laptop mein MySQL install karo aur voting_db banao (SQL code included).
+Frontend: Java Swing (GUI)
 
-Bas Start.bat par double click karo aur project chal jayega!
+Backend: MySQL Database
 
-👤 Login ID
+Connectivity: JDBC API
 
-Admin: aniket / aniket123
+Tools: VS Code / Eclipse
 
-Voter: sanjay / sanjay123
+📸 How to Run
+
+Database Setup:
+
+Install MySQL.
+
+Run the SQL commands (provided in Database_Setup.txt) to create voting_db.
+
+Run Application:
+
+Simply double-click on Start.bat file.
+
+Or compile using: javac -cp ".;mysql-connector-j-9.5.0.jar" VotingSystem.java
+
+👤 Test Credentials
+
+Role
+
+Username
+
+Password
+
+Admin
+
+aniket
+
+aniket123
+
+Voter
+
+sanjay
+
+sanjay123
+
+Developed by [Your Name]
